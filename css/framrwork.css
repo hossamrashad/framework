@@ -1,0 +1,247 @@
+/* Start Global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+/* End Global */
+/* Start color */
+.color {
+    color: #55efc4;
+    color: #00b894;
+    color: #81ecec;
+    color: #00cec9;
+    color: #74b9ff;
+    color: #0984e3;
+    color: #a29bfe;
+    color: #6c5ce7;
+    color: #dfe6e9;
+    color: #b2bec3;
+    color: #636e72;
+    color: #2d3436;
+    color: #ffeaa7;
+    color: #fdcb6e;
+    color: #fab1a0;
+    color: #ff7675;
+    color: #e17055;
+    color: #d63031;
+    color: #fd79a8;
+    color: #e84393;
+    color: #d8e2dc;
+    color: #a9d6e5;
+    color: #89c2d9;
+    color: #61a5c2;
+    color: #468faf;
+    color: #2c7da0;
+    color: #2a6f97;
+    color: #014f86;
+    color: #01497c;
+    color: #1d3557;
+    color: #264653;
+    color: #80ffdb;
+    color: #72efdd;
+    color: #d8f3dc;
+    color: #b7e4c7;
+    color: #95d5b2;
+    color: #74c69d;
+    color: #52b788;
+    color: #40916c;
+    color: #2d6a4f;
+    color: #1b4332;
+    color: #0099e5;
+    color: #ff4c4c;
+    color: #34bf49;
+    color: #00a98f;
+    color: #be0027;
+    color: #cf8d2e;
+    color: #e4e932;
+    color: #2c9f45;
+    color: #371777;
+    color: #52325d;
+    color: #511378;
+    color: #ff0000;
+    color: #00a4e4;
+    color: #fefefe;
+    color: #7d3f98;
+    color: #caccd1;
+    color: #52565e;
+    color: #1cc7d0;
+    color: #222;
+    color: #9f9fa3;
+    color: #d7d7d8;
+    color: #848a8c;
+    color: #01cd74;
+    color: #1aafd0;
+    color: #6a67ce;
+    color: #a5acaf;
+    color: #a5a9ab;
+    color: #bfbfbf;
+    color: #f50537;
+    color: #d0d2d3;
+    color: #ff7800;
+    color: #00395d;
+    color: #2a5934;
+    color: #1769ff;
+    color: #666;
+    color: #f2f6fa;
+    color: #cecece;
+    color: #aca095;
+    color: #a7a9ac;
+    color: #ced7df;
+    color: #b0a696;
+    color: #86898c;
+    color: #ffc2e5;
+    color: #00c7f2;
+    color: #f8dfc2;
+    color: #c9c9c9;
+    color: #005be2;
+    color: #ef5956;
+    color: #444444;
+    color: #001a57;
+    color: #918978;
+    color: #131137;
+    color: #2c2b2b;
+    color: #efecea;
+
+}
+
+.back-l-g {
+    background: linear-gradient(147deg, rgb(243, 245, 95), rgb(36, 126, 209));
+}
+
+/* End Color */
+
+/* Start Style Text */
+
+.text-c {
+    text-align: center
+}
+
+.text-l {
+    text-align: left
+}
+
+.text-r {
+    text-align: right
+}
+
+.text-t-c {
+    text-transform: capitalize
+}
+
+.text-t-l {
+    text-transform: lowercase
+}
+
+.text-t-u {
+    text-transform: uppercase
+}
+
+.text-d-n {
+    text-decoration: none
+}
+
+.text-d-u {
+    text-decoration: underline
+}
+
+.text-d-o {
+    text-decoration: overline
+}
+
+.text-d-l {
+    text-decoration: line-through
+}
+
+/* End Style Text */
+
+/* Start font size */
+
+.font-s-16 {
+    font-size: 16px
+}
+
+.font-s-17 {
+    font-size: 17px
+}
+
+.font-s-18 {
+    font-size: 18px
+}
+
+.font-s-19 {
+    font-size: 19px
+}
+
+.font-s-20 {
+    font-size: 20px
+}
+
+.font-s-21 {
+    font-size: 21px
+}
+
+.font-s-22 {
+    font-size: 22px
+}
+
+.font-s-23 {
+    font-size: 23px
+}
+
+.font-s-24 {
+    font-size: 24px
+}
+
+.font-s-25 {
+    font-size: 25px
+}
+
+.font-s-30 {
+    font-size: 30px
+}
+
+.font-s-35 {
+    font-size: 35px
+}
+
+.font-s-40 {
+    font-size: 40px
+}
+
+.font-s-45 {
+    font-size: 45px
+}
+
+.font-s-50 {
+    font-size: 50px
+}
+
+/* End font size */
+
+
+/* Start Font Weight */
+
+.font-w-b {
+    font-weight: bold
+}
+
+.font-w-n {
+    font-weight: normal
+}
+
+/* End Font Weight */
+
+/* Start direction */
+
+.dir-ltr {
+    direction: ltr
+}
+
+.dir-rtl {
+    direction: rtl
+}
+
+/* End direction */
