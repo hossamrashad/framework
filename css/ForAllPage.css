@@ -50,13 +50,11 @@ body {
 /* End color*/
 
 .hrMyStyleB1 {
-    width: 80%;
     height: 3px;
     background-color: #023e8a;
 }
 
 .hrMyStyleW {
-    width: 80%;
     height: 3px;
     background-color: #ffffff;
 }
@@ -68,13 +66,11 @@ body {
 }
 
 .hrMyStyleR {
-    width: 80%;
     height: 3px;
     background-color: red;
 }
 
 .hrMyStyleG {
-    width: 80%;
     height: 3px;
     background-color: green;
 }
