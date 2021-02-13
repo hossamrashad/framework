@@ -112,6 +112,12 @@
     background: linear-gradient(147deg, rgb(243, 245, 95), rgb(36, 126, 209));
 }
 
+.back-l-g1 {
+    background: linear-gradient(147deg, rgb(36, 126, 209), rgb(243, 245, 95));
+}
+
+
+
 /* End Color */
 
 /* Start Style Text */
@@ -615,4 +621,98 @@
     padding: 50px 0
 }
 
-/* End */
+/* End padding*/
+
+/* Start height*/
+.height-100 {
+    height: 100%
+}
+
+.height-95 {
+    height: 95%
+}
+
+.height-90 {
+    height: 90%
+}
+
+.height-85 {
+    height: 85%
+}
+
+.height-80 {
+    height: 80%
+}
+
+.height-75 {
+    height: 75%
+}
+
+.height-70 {
+    height: 70%
+}
+
+.height-65 {
+    height: 65%
+}
+
+.height-60 {
+    height: 60%
+}
+
+.height-55 {
+    height: 55%
+}
+
+.height-50 {
+    height: 50%
+}
+
+/* End height*/
+
+/* Start width*/
+.width-100 {
+    width: 100%
+}
+
+.width-95 {
+    width: 95%
+}
+
+.width-90 {
+    width: 90%
+}
+
+.width-85 {
+    width: 85%
+}
+
+.width-80 {
+    width: 80%
+}
+
+.width-75 {
+    width: 75%
+}
+
+.width-70 {
+    width: 70%
+}
+
+.width-65 {
+    width: 65%
+}
+
+.width-60 {
+    width: 60%
+}
+
+.width-55 {
+    width: 55%
+}
+
+.width-50 {
+    width: 50%
+}
+
+/* End width*/
