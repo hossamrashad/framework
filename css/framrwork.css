@@ -117,15 +117,15 @@
 /* Start Style Text */
 
 .text-c {
-    text-align: center
+    text-align: center !important
 }
 
 .text-l {
-    text-align: left
+    text-align: left !important
 }
 
 .text-r {
-    text-align: right
+    text-align: right !important
 }
 
 .text-t-c {
@@ -238,11 +238,381 @@
 /* Start direction */
 
 .dir-ltr {
-    direction: ltr
+    direction: ltr !important
 }
 
 .dir-rtl {
-    direction: rtl
+    direction: rtl !important;
 }
 
 /* End direction */
+
+/* Start */
+.margin-all-10 {
+    margin: 10px
+}
+
+.margin-all-15 {
+    margin: 15px
+}
+
+.margin-all-20 {
+    margin: 20px
+}
+
+.margin-all-25 {
+    margin: 25px
+}
+
+.margin-all-30 {
+    margin: 30px
+}
+
+.margin-all-35 {
+    margin: 35px
+}
+
+.margin-all-40 {
+    margin: 40px
+}
+
+.margin-all-45 {
+    margin: 45px
+}
+
+.margin-all-50 {
+    margin: 50px
+}
+
+.margin-t-5 {
+    margin-top: 5px
+}
+
+.margin-t-10 {
+    margin-top: 10px
+}
+
+.margin-t-15 {
+    margin-top: 15px
+}
+
+.margin-t-20 {
+    margin-top: 20px
+}
+
+.margin-t-25 {
+    margin-top: 25px
+}
+
+.margin-t-30 {
+    margin-top: 30px
+}
+
+.margin-t-35 {
+    margin-top: 35px
+}
+
+.margin-t-40 {
+    margin-top: 40px
+}
+
+.margin-t-45 {
+    margin-top: 45px
+}
+
+.margin-t-50 {
+    margin-top: 50px
+}
+
+.margin-b-5 {
+    margin-bottom: 5px
+}
+
+.margin-b-10 {
+    margin-bottom: 10px
+}
+
+.margin-b-15 {
+    margin-bottom: 15px
+}
+
+.margin-b-20 {
+    margin-bottom: 20px
+}
+
+.margin-b-25 {
+    margin-bottom: 25px
+}
+
+.margin-b-30 {
+    margin-bottom: 30px
+}
+
+.margin-b-35 {
+    margin-bottom: 35px
+}
+
+.margin-b-40 {
+    margin-bottom: 40px
+}
+
+.margin-b-45 {
+    margin-bottom: 45px
+}
+
+.margin-b-50 {
+    margin-bottom: 50px
+}
+
+.margin-l-5 {
+    margin-left: 5px
+}
+
+.margin-l-10 {
+    margin-left: 10px
+}
+
+.margin-l-15 {
+    margin-left: 15px
+}
+
+.margin-l-20 {
+    margin-left: 20px
+}
+
+.margin-l-25 {
+    margin-left: 25px
+}
+
+.margin-l-30 {
+    margin-left: 30px
+}
+
+.margin-l-35 {
+    margin-left: 35px
+}
+
+.margin-l-40 {
+    margin-left: 40px
+}
+
+.margin-l-45 {
+    margin-left: 45px
+}
+
+.margin-l-50 {
+    margin-left: 50px
+}
+
+.margin-r-5 {
+    margin-right: 5px
+}
+
+.margin-r-10 {
+    margin-right: 10px
+}
+
+.margin-r-15 {
+    margin-right: 15px
+}
+
+.margin-r-20 {
+    margin-right: 20px
+}
+
+.margin-r-25 {
+    margin-right: 25px
+}
+
+.margin-r-30 {
+    margin-right: 30px
+}
+
+.margin-r-35 {
+    margin-right: 35px
+}
+
+.margin-r-40 {
+    margin-right: 40px
+}
+
+.margin-r-45 {
+    margin-right: 45px
+}
+
+.margin-r-50 {
+    margin-right: 50px
+}
+
+/* End Margin */
+
+/* Start */
+.padding-all-5 {
+    padding: 5px
+}
+
+.padding-all-10 {
+    padding: 10px
+}
+
+.padding-all-15 {
+    padding: 15px
+}
+
+.padding-all-16 {
+    padding: 16px
+}
+
+.padding-all-17 {
+    padding: 17px
+}
+
+.padding-all-18 {
+    padding: 18px
+}
+
+.padding-all-19 {
+    padding: 19px
+}
+
+.padding-all-20 {
+    padding: 20px
+}
+
+.padding-all-25 {
+    padding: 25px
+}
+
+.padding-all-30 {
+    padding: 30px
+}
+
+.padding-all-35 {
+    padding: 35px
+}
+
+.padding-all-40 {
+    padding: 40px
+}
+
+.padding-all-45 {
+    padding: 45px
+}
+
+.padding-all-50 {
+    padding: 50px
+}
+
+.padding-rl-5 {
+    padding: 0 5px
+}
+
+.padding-rl-10 {
+    padding: 0 10px
+}
+
+.padding-rl-15 {
+    padding: 0 15px
+}
+
+.padding-rl-16 {
+    padding: 0 16px
+}
+
+.padding-rl-17 {
+    padding: 0 17px
+}
+
+.padding-rl-18 {
+    padding: 0 18px
+}
+
+.padding-rl-19 {
+    padding: 0 19px
+}
+
+.padding-rl-20 {
+    padding: 0 20px
+}
+
+.padding-rl-25 {
+    padding: 0 25px
+}
+
+.padding-rl-30 {
+    padding: 0 30px
+}
+
+.padding-rl-35 {
+    padding: 0 35px
+}
+
+.padding-rl-40 {
+    padding: 0 40px
+}
+
+.padding-rl-45 {
+    padding: 0 45px
+}
+
+.padding-rl-50 {
+    padding: 0 50px
+}
+
+.padding-tb-5 {
+    padding: 5px 0
+}
+
+.padding-tb-10 {
+    padding: 10px 0
+}
+
+.padding-tb-15 {
+    padding: 15px 0
+}
+
+.padding-tb-16 {
+    padding: 16px 0
+}
+
+.padding-tb-17 {
+    padding: 17px 0
+}
+
+.padding-tb-18 {
+    padding: 18px 0
+}
+
+.padding-tb-19 {
+    padding: 19px 0
+}
+
+.padding-tb-20 {
+    padding: 20px 0
+}
+
+.padding-tb-25 {
+    padding: 25px 0
+}
+
+.padding-tb-30 {
+    padding: 30px 0
+}
+
+.padding-tb-35 {
+    padding: 35px 0
+}
+
+.padding-tb-40 {
+    padding: 40px 0
+}
+
+.padding-tb-45 {
+    padding: 45px 0
+}
+
+.padding-tb-50 {
+    padding: 50px 0
+}
+
+/* End */
