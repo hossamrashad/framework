@@ -1,5 +1,6 @@
 body {
     background-color: #F8F8F8;
+    font-family: cairo
 }
 
 
@@ -8,3 +9,72 @@ body {
 }
 
 
+
+.containerMyStyle {
+    margin-bottom: 15px
+}
+
+/* Start color*/
+.back-91 {
+    background-color: #919191
+}
+
+.color-91 {
+    color: #919191
+}
+
+.back-fff {
+    background-color: #ffffff
+}
+
+.color-fff {
+    color: #ffffff
+}
+
+.back-f00 {
+    background-color: #f00
+}
+
+.color-f00 {
+    color: #f00
+}
+
+.back-00f {
+    background-color: #00f
+}
+
+.color-00f {
+    color: #00f
+}
+
+/* End color*/
+
+.hrMyStyleB1 {
+    width: 80%;
+    height: 3px;
+    background-color: #023e8a;
+}
+
+.hrMyStyleW {
+    width: 80%;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+.hrMyStyleB {
+    width: 80%;
+    height: 3px;
+    background-color: #333333;
+}
+
+.hrMyStyleR {
+    width: 80%;
+    height: 3px;
+    background-color: red;
+}
+
+.hrMyStyleG {
+    width: 80%;
+    height: 3px;
+    background-color: green;
+}
