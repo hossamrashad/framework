@@ -1,6 +1,7 @@
 body {
     background-color: #F8F8F8;
-    font-family: cairo
+    font-family: cairo;
+    min-height: 10000px;
 }
 
 
@@ -45,6 +46,14 @@ body {
 
 .color-00f {
     color: #0076FF
+}
+
+.back-080 {
+    color: #080
+}
+
+.color-080 {
+    color: #080
 }
 
 /* End color*/

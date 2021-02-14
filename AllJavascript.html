@@ -126,8 +126,20 @@
             <h2 class="dir-ltr text-l back-l-g1 color-fff padding-tb-10"> All Thing About Javascript <b class="color-f00">Dom</b></h2>
             <h2 class="dir-rtl text-r back-l-g color-fff padding-tb-10">كل حاجة عن الجافا اسكرابت <b class="color-f00">دام</b> </h2>
             <!--start navbar-->
-            <button class="btn btn-info"><a href="#createElement" class="color-fff font-w-b text-d-n">createElement</a></button>
-            <button class="btn btn-danger"><a href="#console" class="color-fff font-w-b text-d-n">console</a></button>
+
+            <button class="btn btn-danger font-w-b font-s-20"><a href="#console" class="color-fff font-w-b text-d-n">console</a></button>
+
+            <button class="btn btn-info font-w-b font-s-20"><a href="#createElement" class="color-fff font-w-b text-d-n">createElement</a></button>
+
+            <button class="btn btn-info font-w-b font-s-20"><a href="#getElementById" class="color-fff font-w-b text-d-n">getElementById</a></button>
+
+            <button class="btn btn-info font-w-b font-s-20"><a href="#getElementsByTagName" class="color-fff font-w-b text-d-n">getElementsByTagName</a></button>
+
+            <button class="btn btn-info font-w-b font-s-20"><a href="#querySelectorAll" class="color-fff font-w-b text-d-n">querySelectorAll</a></button>
+
+            <button class="btn btn-info font-w-b font-s-20"><a href="#getElementsByClassName" class="color-fff font-w-b text-d-n">getElementsByClassName</a></button>
+
+            <button class="btn btn-info font-w-b font-s-20"><a href="#for" class="color-fff font-w-b text-d-n">For</a></button>
             <!--start navbar-->
         </div>
     </div>
@@ -260,12 +272,73 @@
 
 
 
+    <!--Start container My Style-->
+    <div class="containerMyStyle ">
+        <!--Start container-->
+        <div class="container">
+            <!--Start title-->
+            <div class="title ">
+                <!--Start row-->
+                <div class="row">
+                    <hr class="hrMyStyleB ">
+                    <!--Start col-->
+                    <div class="col-6 col-lg-push-6">
+
+                        <div class="text-c font-s-20 padding-tb-15 back-91">
+
+                            <h3 class="dir-ltr font-w-b margin-b-15"> find elements by object collectionر</h3>
+
+                            <h3 class="dir-rtl font-w-b color-00f margin-b-10">العثور على العناصر من خلال مجموعة الكائن</h3>
+
+                            <ul class="list-unstyled color-fff font-s-16">
+
+                                <p class="text-r font-s-17 padding-rl-10">اية اللى بتعملو الجاف اسكربت</p>
+
+                                <li class="padding-rl-30 margin-b-5 dir-rtl text-right">1 - بيطباع عنوان الصفحة<br>
+                                    <span class="dir-ltr text-left">document.title<span class="dir-rtl text-r">;</span></span>
+                                </li>
+
+                                <li class="padding-rl-30 margin-b-5 dir-rtl text-right">2 - بيجيب جميع العناصر اللى فى الصفحة المتشبها مع العنصر <br>
+                                    <span class="dir-ltr text-left">document.getElementsByTagName<span class="dir-rtl text-r">();</span></span>
+                                </li>
+
+                                <li class="padding-rl-30 margin-b-5 dir-rtl text-right">3 - بيغير العناصر عن طريق الكلاس حت لو الكلاس متكارار بس بيكون تعريفو بى رقم العنصر فى الصفحة <br>
+                                    <span class="dir-ltr text-left">document.getElementsByClassName<span class="dir-rtl text-r">();</span></span>
+                                </li>
+
+                                <li class="padding-rl-30 margin-b-5 dir-rtl text-right">4 - ممكن تختار العنصر عن طريق الايدى او الكلاس و كمان ممكن تحدد نوعة داف او برجراف <br>
+                                    <span class="dir-ltr text-left">document.querySelectorAll('div#testv25');</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End col-->
+                    <!--Start col-->
+                    <div class="col-lg-6 col-lg-pull-6">
+                        <div class=" back-00f">
+                            <h2 class="dir-rtl text-right color-fff padding-rl-15 margin-b-15">المقدمة</h2>
+                            <video width="100%" height="300" controls autoplay loop muted preload="auto" poster="http://placehold.it/540/100">
+                                <source src="../Elzero/JavaScript/Learn-Javescript-Html-Dom/01LearnJSHTMLDomInArabicWhatisDOM.mp4" type="video/mp4">
+                                <source src="../Elzero/JavaScript/Learn-Javescript-Html-Dom/01LearnJSHTMLDomInArabicWhatisDOM.mp4" type="video/ogg">
+                                <p>Your browser doesn't support HTML5 video. Here is a <a href="myVideo.mp4">link to the video</a> instead.</p>
+                            </video>
+                        </div>
+                    </div>
+                    <!--End col-->
+                </div>
+                <!--End row-->
+            </div>
+            <!--End title-->
+        </div>
+        <!--End container-->
+    </div>
+    <!--End container My Style-->
 
 
 
-
-    <!--strt createElement-->
-    <div id="createElement" class="container">
+    <!--strt console-->
+    <div id="console" class="container">
 
         <hr class="hrMyStyleB1 width-50">
 
@@ -281,13 +354,14 @@
 
                         <p class="lead margin-b-5 "><button class="btn btn-primary margin-r-15">Copy code</button><br> var myelement = document.getElementsByTagName('div');
 
-                            console.log(myelement.length);</p>
+                            <span class="color-00f font-w-b">console.log(myelement.length);</span>
+                        </p>
                         <iframe id="iFrame" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://wiki.hsoub.com/JavaScript/Document/createElement"></iframe>
                     </div>
 
                     <div class="col">
 
-                        <div class="lead text-right dir-rtl  margin-b-5">بيعاد كام عنصار فى الصفحة على حسب مانت معرف الفاريبار بى اية يععنى لو داف زاى الكود ده بيعدالك كام داف عندك فى الصفحة و لو المتغاير استرانج بيعد كام حرف فى الاسترانج </div>
+                        <div class="lead text-right dir-rtl  margin-b-5">بيعاد كام عنصار فى الصفحة على على حسب مانت معرف الفاريبار بى اية يعنى لو داف زاى الكود ده بيعدالك كام داف عندك فى الصفحة و لو المتغاير استرانج بيعد كام حرف فى الاسترانج </div>
                         <div class="">
                             <h3 class="margin-b-5 dir-rtl text-r"> مراجع</h3>
 
@@ -296,11 +370,7 @@
                             <a class="btn btn-primary" href="https://www.javascripttutorial.net/?s=console" target="_blank">javascripttutorial</a>
 
                             <a class="btn btn-primary" href="https://developer.mozilla.org/en-US/search?q=console" target="_blank">developer mozilla</a>
-
-
-
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -333,7 +403,7 @@
                     <div class="col">
 
                         <p class="lead margin-b-5 "><button class="btn btn-primary margin-r-15">Copy code</button>var myp= document.createElement('p');</p>
-                        <iframe id="iFrame" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://wiki.hsoub.com/JavaScript/Document/createElement"></iframe>
+                        <iframe id="" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://wiki.hsoub.com/JavaScript/Document/createElement"></iframe>
                     </div>
 
                     <div class="col">
@@ -360,6 +430,223 @@
         </div>
     </div>
     <!--End createElement-->
+
+
+
+
+
+
+
+
+
+
+    <!--strt getElementById-->
+    <div id="getElementById" class="container">
+        <hr class="hrMyStyleB1 width-50">
+        <h2 class="margin-b-10 text-c">getElementById</h2>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <p class="lead margin-b-5 "><button class="btn btn-primary margin-r-15">Copy code</button>document.getElementById('divName');</p>
+                        <iframe id="" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://www.coursat.org/lesson/7838/find-elements-by-objects-part-2https://www.coursat.org/lesson/7838/find-elements-by-objects-part-2"></iframe>
+                    </div>
+                    <div class="col">
+                        <div class="lead text-right dir-rtl  margin-b-5">هو نوع من انواع اختيار العنصر و هو الاكثار استخدام </div>
+                        <div class="">
+                            <h3 class="margin-b-5 dir-rtl text-r"> مراجع</h3>
+                            <a class="btn btn-primary margin-b-5" href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp" target="_blank">w3schools.com</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.javascripttutorial.net/?s=getElementById" target="_blank">javascripttutorial</a>
+                            <a class="btn btn-primary margin-b-5" href="https://developer.mozilla.org/en-US/search?q=getElementById" target="_blank">developer mozilla</a>
+                            <a class="btn btn-primary margin-b-5" href="https://stackoverflow.com/search?q=getElementById" target="_blank">stackoverflow</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.javatpoint.com/document-getElementById()-method" target="_blank">javatpoint</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.tutorialspoint.com/how-getelementbyid-works-in-javascript" target="_blank">tutorialspoint</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.tutorialspoint.com/html-dom-getelementbyid-method" target="_blank">tutorialspoint</a>
+                            <a class="btn btn-primary margin-b-5" href="https://javascript.info/searching-elements-dom" target="_blank">javascript info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End getElementById-->
+
+
+    <!--strt getElementsByTagName-->
+    <div id="getElementsByTagName" class="container">
+        <hr class="hrMyStyleB1 width-50">
+        <h2 class="margin-b-10 text-c">getElementsByTagName</h2>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <p class="lead margin-b-5 "><button class="btn btn-primary margin-r-15">Copy code</button>var myp= document.createElement('p');</p>
+                        <iframe id="" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://www.coursat.org/lesson/7838/find-elements-by-objects-part-2"></iframe>
+                    </div>
+                    <div class="col">
+                        <div class="lead text-right dir-rtl  margin-b-5">هو انو انت بيجيب جميع العناصر اللى فى الصفحة المتشبها مع العنصر </div>
+                        <div class="">
+                            <h3 class="margin-b-5 dir-rtl text-r"> مراجع</h3>
+                            <a class="btn btn-primary margin-b-5" href="https://www.coursat.org/lesson/7838/find-elements-by-objects-part-2" target="_blank">coursat</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp" target="_blank">w3schools.com</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.w3schools.com/jsref/met_element_getelementsbytagname.asp" target="_blank">w3schools.com</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.javascripttutorial.net/?s=getElementsByTagName" target="_blank">javascripttutorial</a>
+                            <a class="btn btn-primary margin-b-5" href="https://stackoverflow.com/search?q=getElementsByTagName" target="_blank">stackoverflow</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End getElementsByTagName-->
+
+
+
+
+
+    <!--strt querySelectorAll-->
+    <div id="querySelectorAll" class="container">
+
+        <hr class="hrMyStyleB1 width-50">
+
+        <h2 class="margin-b-10 text-c">querySelector</h2>
+        <h2 class="margin-b-10 text-c">querySelectorAll</h2>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <p class="lead margin-b-5 "><button class="btn btn-primary margin-r-15">Copy code</button>var myp= document.querySelector('p');</p>
+                        <iframe id="" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://wiki.hsoub.com/JavaScript/Document/querySelector"></iframe>
+                    </div>
+                    <div class="col">
+                        <div class="lead text-right dir-rtl  margin-b-5">أول كائنٍ من النّوع Element الذي يُمثّل العنصر المُوافِق للمُحدِّد أو المحدّدات المعطاة. ويُعيد القيمة null في حالة لم يجِد أيّ عنصر. </div>
+                        <div class="">
+                            <h3 class="margin-b-5 dir-rtl text-r"> مراجع</h3>
+                            <a class="btn btn-primary margin-b-5" href="https://www.w3schools.com/jsref/met_document_queryselector.asp" target="_blank">w3schools querySelector</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.w3schools.com/jsref/met_document_queryselectorall.asp" target="_blank">w3schools querySelectorAll</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.javascripttutorial.net/?s=querySelector" target="_blank">javascripttutorial querySelector</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.javascripttutorial.net/?s=querySelectorAll" target="_blank">javascripttutorial querySelectorAll</a>
+                            <a class="btn btn-primary margin-b-5" href="https://stackoverflow.com/search?q=querySelector" target="_blank">stackoverflow querySelector</a>
+                            <a class="btn btn-primary margin-b-5" href="https://stackoverflow.com/search?q=querySelectorAll" target="_blank">stackoverflow querySelectorAll</a>
+                            <a class="btn btn-primary margin-b-5" href="https://developer.mozilla.org/ar/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">developer mozilla querySelectorAll</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End createElement-->
+
+
+
+    <!--strt -->
+    <div id="getElementsByClassName" class="container">
+
+        <hr class="hrMyStyleB1 width-50">
+
+        <h2 class="margin-b-10 text-c">getElementsByClassName</h2>
+
+        <div class="row">
+
+            <div class="col">
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <p class="lead margin-b-5 "><button class="btn btn-primary margin-r-15">Copy code</button>var myelement = document.getElementsByClassName('Active');</p>
+                        <iframe id="" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://wiki.hsoub.com/JavaScript/Document/index.php?utf8=%E2%9C%93&search=getElementsByClassName&fulltext=1"></iframe>
+                    </div>
+
+                    <div class="col">
+
+                        <div class="lead text-right dir-rtl  margin-b-5">يُعيد التّابع Document.getElementsByClassName()‎ كائنًا مُشابهًا للمصفوفات يحتوي على جميع العناصر الأولاد التي تحمل نفس اسم الصّنف (class name) المُعطى</div>
+                        <div class="">
+                            <h3 class="margin-b-5 dir-rtl text-r"> مراجع</h3>
+
+                            <a class="btn btn-primary margin-b-5" href="http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/jsref/met_document_createelement.asp.html" target="_blank">w3schools.com</a>
+
+                            <a class="btn btn-primary margin-b-5" href="https://www.javascripttutorial.net/javascript-dom/javascript-createelement/" target="_blank">javascripttutorial</a>
+
+                            <a class="btn btn-primary margin-b-5" href="https://webplatform.github.io/docs/dom/tutorials/adding_and_deleting_elements/" target="_blank">webplatform</a>
+
+                            <a class="btn btn-primary margin-b-5" href="https://stackoverflow.com/questions/6840326/how-can-i-create-and-style-a-div-using-javascript" target="_blank">stackoverflow</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End createElement-->
+
+
+
+
+
+
+
+
+
+
+    <!--strt -->
+    <div id="for" class="container">
+
+        <hr class="hrMyStyleB1 width-50">
+
+        <h2 class="margin-b-10 text-c">For loop</h2>
+
+        <div class="row">
+
+            <div class="col">
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <p class="lead margin-b-5 "><button class="btn btn-primary margin-r-15">Copy code</button><br><span class="color-00f">var i &#59;</span> <br><span class="color-f00">for &#40; i &lt; document.images.length&#59; i++) &#123;</span> <br>
+                            <span class="color-080"> document.write&#40;document.images&#91;i&#93;.src&#41;&#59;</span> <br> &#125;
+                        </p>
+                        <iframe id="" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen src="https://wiki.hsoub.com/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9"></iframe>
+                    </div>
+
+                    <div class="col">
+
+                        <div class="lead text-right dir-rtl  margin-b-5">الفور هو تكرار العنصر اللى عدد انت بتحدد عن طريق الرقام او عن طريق عنصر بى length اللى هو عدد العناصر فى الصفحة او عدد العناصر فى اى يحجة انت بتدور عليها </div>
+                        <div class="lead text-right dir-rtl  margin-b-5">الفكرة انو انا عاوز اجيب مسار جميع الصور جوة داف واحد </div>
+                        <div class="">
+                            <h3 class="margin-b-5 dir-rtl text-r"> مراجع</h3>
+                            <a class="btn btn-primary margin-b-5" href="https://wiki.hsoub.com/JavaScript/for...in" target="_blank">حاسوب</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.javatpoint.com/java-for-loop" target="_blank">javatpoint</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">w3schools.com</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.w3schools.com/jsref/jsref_forin.asp" target="_blank">w3schools.com</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.javascripttutorial.net/?s=for+loop" target="_blank">javascripttutorial</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.tutorialspoint.com/javascript/javascript_for_loop.htm" target="_blank">tutorialspoint</a>
+                            <a class="btn btn-primary margin-b-5" href="http://referencedesigner.com/tutorials/js/js_11.php" target="_blank">referencedesigner</a>
+                            <a class="btn btn-primary margin-b-5" href="http://xahlee.info/js/javascript_iteration.html" target="_blank">xahlee</a>
+                            <a class="btn btn-primary margin-b-5" href="http://www.tizag.com/javascriptT/javascriptfor.php" target="_blank">tizag</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.dofactory.com/javascript/loops" target="_blank">dofactory</a>
+                            <a class="btn btn-primary margin-b-5" href="http://www.howtocreate.co.uk/tutorials/javascript/controls" target="_blank">howtocreate</a>
+                            <a class="btn btn-primary margin-b-5" href="https://www.tutorialsteacher.com/javascript/javascript-for-loop" target="_blank">tutorialsteacher</a>
+                            <a class="btn btn-primary margin-b-5" href="http://www.javascriptkit.com/search/search.php?zoom_query=for+loop&x=0&y=0&zoom_per_page=10&zoom_and=1&zoom_sort=0&zoom_cat%5B%5D=1" target="_blank">javascriptkit</a>
+                            <a class="btn btn-primary margin-b-5" href="https://way2tutorial.com/javascript/javascript-for-loop.php" target="_blank">way2tutorial</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End createElement-->
+
+
+
+
+
+
+
+
 
 
     <!--libs jquery from net-->
