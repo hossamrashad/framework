@@ -13,7 +13,13 @@ $(function () {
 
     'use strict';
 
-    $('.navbar a').click(function (e) {
+    $('.navbar li a').click(function () {
+
+        $(this).addClass('active').parent().siblings().find('a').removeClass('active');
+
+    });
+
+    $('.navbar li a').click(function (e) {
 
         // كد انا مناعت الافتراضى للعنصر الانك انو بيرحش لمكان يعنى ميعملش علامة الشباك فى اسم الصفحة
         e.preventDefault();
@@ -35,4 +41,21 @@ $(function () {
 
     });
 
+});
+
+$(window).scroll(function () {
+
+    $('.windowHeight').each(function () {
+
+        if ($(window).scrollTop() > $(this).offset().top) {
+
+            //console.log($(this).attr('id'));
+
+            var blackId = $(this).attr('id');
+
+            $('.navbar a').removeClass('active');
+
+            $('.navbar li a[data-scroll="' + blackId + '"]').addClass('active');
+        }
+    });
 });

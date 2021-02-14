@@ -2,7 +2,7 @@
 
 /* start section loading */
 
-$(window).load(function () {
+$(document).ready(function () {
 
     'use strict';
 
