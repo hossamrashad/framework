@@ -1,7 +1,5 @@
 body {
     background-color: #F8F8F8;
-    font-family: cairo;
-    min-height: 10000px;
 }
 
 
@@ -92,4 +90,11 @@ a {
 a:hover {
     text-decoration: none;
     color: #023e8a
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
